@@ -138,7 +138,16 @@ const Contactv2 = ({ isBg }) => {
           >
             <div className="contact__address contactv4">
               <div id="map">
-                <iframe src={contactMap.link}></iframe>
+                <iframe
+                  src={contactMap.link}
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen=""
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Google Maps"
+                ></iframe>
               </div>
               <ul className="contactv4__content">
                 <li>

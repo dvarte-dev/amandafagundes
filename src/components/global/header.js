@@ -49,8 +49,8 @@ const Header = ({ header }) => {
               <ImageComp
                 src={siteLogo.logo}
                 alt={siteLogo.alt}
-                width={211}
-                height={48}
+                width={238}
+                height={28}
               />
             </LinkButton>
             <Navbar.Toggle aria-controls="navbarSupportedContent">

@@ -7,6 +7,12 @@ export default function Document() {
       <Head>
         {/* Mover os links de fontes para cá */}
         <link
+          rel="icon"
+          sizes="192x192"
+          href="https://static.wixstatic.com/media/26525a_e201c7c14a84499aaff283dbc680c4eb%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/26525a_e201c7c14a84499aaff283dbc680c4eb%7Emv2.png"
+          type="image/png"
+        ></link>
+        <link
           href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap"
           rel="stylesheet"
         />

@@ -25,38 +25,12 @@ const Footer = ({ menu, isBg }) => {
                   <ImageComp
                     src={siteLogo.logo}
                     alt={siteLogo.alt}
-                    width={211}
-                    height={48}
+                    width={238}
+                    height={28}
                   />
                 </LinkButton>
               </div>
-              <div className="col-lg-6 d-flex justify-content-center align-items-center mb-3 mb-lg-0">
-                <ul className="footer__menu">
-                  {menu?.map((data, i) => (
-                    <li key={i}>
-                      <Link
-                        activeClass="active"
-                        className="benefits"
-                        to={`${data.link}`}
-                        spy={true}
-                        smooth={true}
-                        duration={500}
-                        role="button"
-                        data-bs-toggle="dropdown"
-                        aria-expanded="false"
-                        offset={-60}
-                        style={{
-                          fontFamily: "Poppins, sans-serif",
-                          textDecoration: "none",
-                        }}
-                      >
-                        {data.title}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <div className="col-lg-3 d-flex justify-content-center align-items-center mb-3 mb-lg-0 justify-content-lg-end">
+              <div className="col-lg-9 d-flex justify-content-center align-items-center mb-3 mb-lg-0 justify-content-lg-end">
                 <ul className="social-icon">
                   {socialLink.facebook === "" ? (
                     ""
@@ -159,7 +133,7 @@ const Footer = ({ menu, isBg }) => {
                   />
                   by&nbsp;
                   <LinkButton
-                    url="#"
+                    url="https://www.dvarte.dev/"
                     classes={{
                       fontFamily: "Poppins, sans-serif",
                       fontWeight: "400",
